@@ -30,7 +30,7 @@ object PurchasesByCustomerSorted {
     
     val amountSpendByCustomerIDSorted = amountSpendByCustomerID.map(x => (x._2, x._1))
     
-    val result = amountSpendByCustomerIDSorted.sortByKey().collect()
+    val result = amountSpendByCustomerIDSorted.sortByKey().map(x => (x._2, x._1)).collect()
     
     result.foreach(println)
   }
