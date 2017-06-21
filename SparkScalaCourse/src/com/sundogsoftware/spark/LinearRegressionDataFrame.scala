@@ -22,7 +22,7 @@ object LinearRegressionDataFrame {
       .builder
       .appName("LinearRegressionDF")
       .master("local[*]")
-      .config("spark.sql.warehouse.dir", "file:///C:/temp") // Necessary to work around a Windows bug in Spark 2.0.0; omit if you're not on Windows.
+      //.config("spark.sql.warehouse.dir", "file:///C:/temp") // Necessary to work around a Windows bug in Spark 2.0.0; omit if you're not on Windows.
       .getOrCreate()
       
     // Load up our page speed / amount spent data in the format required by MLLib
