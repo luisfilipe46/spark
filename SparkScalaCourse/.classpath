@@ -210,5 +210,8 @@
 	<classpathentry kind="lib" path="/usr/local/spark/jars/xmlenc-0.52.jar"/>
 	<classpathentry kind="lib" path="/usr/local/spark/jars/xz-1.0.jar"/>
 	<classpathentry kind="lib" path="/usr/local/spark/jars/zookeeper-3.4.6.jar"/>
+	<classpathentry kind="lib" path="/home/luis/Transferências/SparkScala/dstream-twitter_2.11-0.1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/home/luis/Transferências/SparkScala/twitter4j-core-4.0.4.jar"/>
+	<classpathentry kind="lib" path="/home/luis/Transferências/SparkScala/twitter4j-stream-4.0.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
